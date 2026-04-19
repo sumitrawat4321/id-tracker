@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   try {
     await client.messages.create({
       from: 'whatsapp:+14155238886',
-      to: 'whatsapp:+919997289858',
+      to: 'whatsapp:+918902674629',
       body: '🚀 QR scanned (POC demo)'
     });
 
@@ -16,3 +16,5 @@ export default async function handler(req, res) {
     res.status(500).send(e.message);
   }
 }
+
+
